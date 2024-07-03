@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullstack Task</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            background-color: powerdblue; 
+        }
+        header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            background-color: green; 
+            color: white; 
+            padding: 10px 20px; 
+        }
+        header .logo { 
+            font-size: 1.2em; 
+        }
+        nav ul { 
+            display: flex; 
+            list-style: none; 
+            margin: 0; 
+            padding: 0; 
+        }
+        nav ul li { 
+            margin: 0 15px; 
+        }
+        nav ul li a { 
+            color: white; 
+            text-decoration: none; 
+        }
+        nav ul li a:hover { 
+            color: blue; 
+        }
+        .hero { 
+            background-color: lightgreen; 
+            padding: 50px; 
+            text-align: center; 
+            font-size: 1.5em; 
+            color: black; 
+        }
+        .about-us, .services, .products, .contact-us, .note { 
+            padding: 20px; 
+            margin: 10px; 
+            background-color: #fff; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+        h2 { 
+            color: #333; 
+        }
+        .image-placeholder { 
+            background-color: #ccc; 
+            padding: 20px; 
+            text-align: center; 
+            margin: 10px 0; 
+            color: #333; 
+        }
+        .service-images, .product-images { 
+            display: flex; 
+            justify-content: space-around; 
+            flex-wrap: wrap; 
+        }
+        .service-images .image-placeholder, .product-images .image-placeholder { 
+            flex: 1 1 30%; 
+            margin: 5px; 
+        }
+        form { 
+            display: flex; 
+            flex-direction: column; 
+        }
+        form label { 
+            margin: 5px 0; 
+        }
+        form input, form textarea { 
+            margin: 5px 0; 
+            padding: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+        form button { 
+            margin: 10px 0; 
+            padding: 10px; 
+            border: none; 
+            background-color: #3c3295; 
+            color: white; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+        form button:hover { 
+            background-color: #f1c40f; 
+        }
+        footer { 
+            text-align: center; 
+            padding: 20px; 
+            background-color: #3c3295; 
+            color: white; 
+        }
+        .note { 
+            background-color: #f1f1f1; 
+            padding: 20px; 
+            margin: 10px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+        }
+        .note ol { 
+            margin: 0; 
+            padding-left: 20px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Download and upload any logo</div>
+        <nav>
+            <ul>
+                <li><a href="service.jpg">Home</a></li>
+                <li><a href="fkjsd.jpg">About Us</a></li>
+                <li><a href="gjrfg.png">Services</a></li>
+                <li><a href="jgirkg.png">Products</a></li>
+                <li><a href="gjf.png">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Download and Upload</h1>
+          
+        </section>
+        <section class="about-us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicikjehgnjkwjnolkjmklwbngibnwohengone2ng elit. Cum a suscipit consectetur, ipsum id totam? Non nihil modi maxime distinctio, repellat voluptas ratione impedit, libero! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum a suscipit consectetur, ipsum id totam?</p>
+            <div class="image-placeholder">
+                <img src="https://via.placeholder.com/600x400" alt="About Us Image">
+            </div>
+      
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .product {
+            display: inline-block;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 200px;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .product a {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            border-radius: 4px;
+        }
+        .product a:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Product Gallery</h2>
+
+<div class="product">
+    <img src="https://images.pexels.com/photos/164827/pexels-photo-164827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Product 1">
+    <p><a href="https://images.pexels.com/photos/164827/pexels-photo-164827.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" download="Product1">Download Product 1 Image</a></p>
+</div>
+
+<div class="product">
+    <img src="https://images.pexels.com/photos/26761342/pexels-photo-26761342/free-photo-of-smartphone-on-calendar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Product 2">
+    <p><a href="https://images.pexels.com/photos/26761342/pexels-photo-26761342/free-photo-of-smartphone-on-calendar.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" download="Product2">Download Product 2 Image</a></p>
+</div>
+
+<div class="product">
+    <img src="https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Product 3">
+    <p><a href="product3.jpg" download="https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">Download Product 3 Image</a></p>
+</div>
+
+<div class="product">
+    <img src="https://images.pexels.com/photos/2351844/pexels-photo-2351844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2product4.jpg" alt="Product 4">
+    <p><a href="https://images.pexels.com/photos/2351844/pexels-photo-2351844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" download="Product4">Download Product 4 Image</a></p>
+</div>
+
+</body>
+</html>
+
+        </section>
+        <section class="contact-us">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+                <label for="requirement">Requirement:</label>
+                <textarea id="requirement" name="requirement"></textarea>
+                <button type="submit">Submit</button>
+                <button type="reset">Cancel</button>
+            </form>
+        </section>
+    </main>
+   
+    </section>
+</body>
+</html>
